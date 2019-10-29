@@ -1,4 +1,4 @@
-#ttapi
+**Team Trees Api**
 
 **Usage:**
 ```JS
