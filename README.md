@@ -9,3 +9,6 @@ getStatistics(true, true, false).then(response => {
 
 **Github:**
 https://github.com/Auxority/ttapi
+
+**NPM**
+https://www.npmjs.com/package/teamtrees
