@@ -1,0 +1,14 @@
+{
+  "name": "teamtrees",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Auxority",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "request-promise": "^4.2.4"
+  }
+}
