@@ -6,13 +6,10 @@
 2) Start using the api
 
 ```JS
-getStatistics(true, true, false).then(response => {
+getStatistics(showTotalTrees: boolean, showTopDonations: boolean, showRecentDonations: boolean).then(response => {
     console.log(response);
 });
 ```
-
-**Github:**
-https://github.com/Auxority/ttapi
 
 **NPM**
 https://www.npmjs.com/package/teamtrees
