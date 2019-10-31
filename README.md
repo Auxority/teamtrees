@@ -1,6 +1,6 @@
 # TeamTrees API
 
-This Api was made to allow developers to obtain information from https://teamtrees.org/\n
+This Api was made to allow developers to obtain information from https://teamtrees.org/  
 The plan of TeamTrees is to plant 20 million trees by the 1st of January 2020
 
 **Usage:**
