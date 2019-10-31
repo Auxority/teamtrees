@@ -1,15 +1,17 @@
-**Team Trees Api**
+# TeamTrees API
+
+This Api was made to allow developers to obtain information from https://teamtrees.org/
+The plan of TeamTrees is to plant 20 million trees by the 1st of January 2020
 
 **Usage:**
-
-1) Install request-promise using `npm i request-promise`
-2) Start using the api
-
 ```JS
-getStatistics(showTotalTrees: boolean, showTopDonations: boolean, showRecentDonations: boolean).then(response => {
-    console.log(response);
-});
+const teamTrees = require("teamtrees");
+
+teamTrees.getAllStatistics().then(console.log).catch(console.error); //Returns all statistics of the website
+teamTrees.getTrees().then(console.log).catch(console.error); //Returns the total amount of trees planted until now
+teamTrees.getRecent().then(console.log).catch(console.error); //Returns the most recent donations
+teamTrees.getTop().then(console.log).catch(console.error); //Returns the top donations
 ```
 
-**NPM**
-https://www.npmjs.com/package/teamtrees
+**Github:**
+https://github.com/Auxority/teamtrees
